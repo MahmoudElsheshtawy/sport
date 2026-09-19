@@ -5,7 +5,7 @@ const connectDB = async ()=>{
         console.log(" DB connected " );
         
     })
-   await mongoose.connect(`${process.env.MONGODB_URL}/sport`)
+   await mongoose.connect(`${process.env.MONGODB_URL}/malabs`)
 
 
 
