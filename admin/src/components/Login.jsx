@@ -60,8 +60,8 @@ import { backendUrl } from "../App";
 import { toast } from "react-toastify";
 
 const Login = ({ setToken }) => {
-  const [email, setEmail] = useState("adminnn@gmail.com");
-  const [password, setPassword] = useState("123456789");
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
   const [loading, setLoading] = useState(false);
 
   const onsubmitHandler = async (e) => {
